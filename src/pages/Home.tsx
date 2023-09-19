@@ -1,4 +1,3 @@
-import React from 'react'
 import { Branding, Contact, Hero, Map, OurWork, Service } from '../data/components'
 
 const Home = () => {
