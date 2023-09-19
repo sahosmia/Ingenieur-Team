@@ -1,3 +1,4 @@
-export { default as Home } from "../pages/Home";
+export { default as HomePage } from "../pages/HomePage";
+export { default as ContactPage } from "../pages/ContactPage";
 
 

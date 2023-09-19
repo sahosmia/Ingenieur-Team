@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 const Service = () => {
   return (
     <div className='py-20'>
-       <h1 className='section-header text-center pb-10'>
+      <div className='container'>
+        <h1 className='section-header  pb-10'>
           Our Service
         </h1>
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 pt-10">
+       </div>
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className='rounded-3xl overflow-hidden bg-secondary'>
           <img className='w-full' src="/images/services/one.png" alt="" />
           <div className='p-8'>

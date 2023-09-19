@@ -34,7 +34,7 @@ p{
   @apply text-xl lg:text-2xl font-semibold;
 }
 .section-header {
-  @apply text-4xl lg:text-6xl font-bold;
+  @apply text-4xl lg:text-6xl font-bold text-typhografy;
 }
 
 .primary-btn{

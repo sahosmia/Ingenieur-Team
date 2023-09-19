@@ -43,32 +43,32 @@ const Footer = () => {
             </ul>
             </div>
            
-            <div className='w-4/12'>
-              
+            <div className='w-4/12'>            
               <div className='flex flex-col gap-8 pb-3'>
 
-            <div className="flex gap-10">
-             <span  className={footerIcon}><BiMapAlt/></span>
-              <p className="text-white text-opacity-50">72/54 Link Road, Radison Area, Singapur</p>
-            </div>
+                <div className="flex gap-10">
+                  <span className={footerIcon}><BiMapAlt /></span>
+                  <p className="text-white text-opacity-50">72/54 Link Road, Radison Area, Singapur</p>
+                </div>
+                
+                <div className="flex gap-10">
+                  <span className={footerIcon}>
+                    <BsTelephone />
+                  </span>
+                  <ul className="text-white text-opacity-50">
+                    <li>+8801952827301</li>
+                    <li>+8801952827301</li>
+                  </ul>
+                </div>
 
-            <div className="flex gap-10">
-              <span  className={footerIcon}>
-                <BsTelephone/>
-              </span>
-              <ul className="text-white text-opacity-50">
-                <li>+8801952827301</li>
-                <li>+8801952827301</li>
-              </ul>
-            </div>
-
-            <div className="flex gap-10">
-              <span className={footerIcon}>
-                <MdOutlineMailOutline/>
-              </span>
-              <p className="text-white text-opacity-50">sahosmia.webdv@gmail.com</p>
-            </div>
-          </div>
+                <div className="flex gap-10">
+                  <span className={footerIcon}>
+                    <MdOutlineMailOutline />
+                  </span>
+                  <p className="text-white text-opacity-50">sahosmia.webdv@gmail.com</p>
+                </div>
+                
+              </div>
             </div>
           </div>
 

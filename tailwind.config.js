@@ -7,6 +7,7 @@ export default {
         light: "#ffffff",
         main: "#2271E9",
         secondary: "#F1F7FF",
+        typhografy: "#1F3B60",
         footer: "#1E242D",
       },
 
