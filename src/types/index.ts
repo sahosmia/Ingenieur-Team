@@ -10,3 +10,9 @@ export type PageBannerPropsType = {
     title: string,
     content?: string,
 }
+export type CareerItemPropsType = {
+    location: string,
+    designation: string,
+    status: string,
+    company: string;
+}
