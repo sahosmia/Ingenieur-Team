@@ -1,4 +1,4 @@
-import { Home, About } from "./pages";
+import { Home } from "./pages";
 
 
 
@@ -8,11 +8,7 @@ export const frontRoute = [
     title: "Home",
     component: Home,
   },
-  {
-    path: "/about",
-    title: "About",
-    component: About,
-  },
+
 
 
 
