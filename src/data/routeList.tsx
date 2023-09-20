@@ -19,7 +19,7 @@ export const frontRoute = [
     component: ServicePage,
   },
   {
-    path: "/careear",
+    path: "/career",
     title: "Career",
     component: CareerPage,
   },

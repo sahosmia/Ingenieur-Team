@@ -41,10 +41,13 @@ const Header = () => {
               <Link to="/" className='text-gray-800 hover:text-main py-2 block font-medium'>Home</Link>
             </li>
             <li className=''>
-              <a href="#" className='text-gray-800 hover:text-main py-2 block font-medium'>Service</a>
+              <Link to="/services" className='text-gray-800 hover:text-main py-2 block font-medium'>Service</Link>
             </li>
             <li className=''>
-              <a href="#" className='text-gray-800 hover:text-main py-2 block font-medium'>Location </a>
+              <Link to="/about" className='text-gray-800 hover:text-main py-2 block font-medium'>About </Link>
+            </li>
+            <li className=''>
+              <Link to="/career" className='text-gray-800 hover:text-main py-2 block font-medium'>Career </Link>
             </li>
             <li className=''>
               <Link to="/contact" className='text-gray-800 hover:text-main py-2 block font-medium'>Contact</Link>

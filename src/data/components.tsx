@@ -7,4 +7,6 @@ export { default as Branding } from "../components/Branding";
 export { default as OurWork } from "../components/OurWork";
 export { default as LocationInformation } from "../components/LocationInformation";
 export { default as PageBanner } from "../components/PageBanner";
+export { default as CareerItem } from "../components/CareerItem";
+export { default as ServiceItem } from "../components/ServiceItem";
 
